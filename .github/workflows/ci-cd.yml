@@ -85,7 +85,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
+       
       - name: Download build artifacts
         uses: actions/download-artifact@v4
         with:
@@ -135,7 +135,7 @@ jobs:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.TOKEN }}
-      
+       
       
       - name: Push Docker image
         uses: docker/build-push-action@v5
