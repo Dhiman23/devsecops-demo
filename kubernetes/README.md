@@ -10,7 +10,7 @@ This directory contains Kubernetes manifests for deploying the Tic Tac Toe appli
 
 ## Prerequisites
 
-- Kubernetes cluster (e.g., Minikube, EKS, GKE, AKS)
+- Kubernetes cluster (e.g., Minikube, EKS, GKE, AKS) 
 - kubectl configured to communicate with your cluster
 - Container registry access (GitHub Container Registry in this case)
 
